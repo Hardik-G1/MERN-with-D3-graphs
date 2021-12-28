@@ -1,0 +1,72 @@
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 300;
+	font-stretch: normal;
+	src: url(https://fonts.gstatic.com/s/opensans/v27/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsiH0B4gaVc.ttf) format('truetype');
+  }
+  @font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-stretch: normal;
+	src: url(https://fonts.gstatic.com/s/opensans/v27/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4gaVc.ttf) format('truetype');
+  }
+a{
+	text-decoration: none;
+	color:#fff;
+	cursor:pointer;
+}
+
+  .button {
+	min-width: 10em;
+	padding: 0.5em 1em;
+	border: 1px solid #141414;
+	background: none;
+	color: #141414;
+	border-radius: 2px;
+  }
+  .homepage {
+	background-color: #141414;
+	position: relative;
+	height: 85%;
+	color: #fff;
+	text-align: center;
+	padding-top: 2%;
+
+  }
+  .homepage__logo {
+	width: 55%;
+  }
+  .homepage__title {
+	font-family: "Open Sans";
+	font-weight: 300;
+	font-size: 3.33vw;
+  }
+  .homepage__cta {
+	margin-top: 9vh;
+  }
+  .button--homepage {
+	margin: 1em 0.5em;
+	border-color: #fff;
+	color: #fff;
+	font-family: 'Open Sans';
+	font-size: 1.5em;
+	font-weight: 300;
+  }
+  .button--homepage:hover {
+	color: #62dfc3;
+	background-color: rgba(98, 223, 195, 0.05);
+	border-color: #62dfc3;
+  }
+  .button--cta {
+	display: block;
+	margin: 0 auto;
+	color: #141414;
+	background-color: #62dfc3;
+	border-color: #62dfc3;
+	font-weight: 400;
+  }
+  .button--double {
+	min-width: 21.5em;
+  }

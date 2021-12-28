@@ -1,0 +1,20 @@
+{
+  "name": "ver1",
+  "version": "1.0.0",
+  "description": "blackcoffer",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "coffer"
+  ],
+  "author": "hardik",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.1.1"
+  }
+}
