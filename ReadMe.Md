@@ -1,6 +1,6 @@
 This project uses MERN stack to Filter Data and show graphs and some visual representation with the help of D3.js
 
-import the jsondata.json to your mongodb db and replace the url in index.js
+import the jsondata.json to your mongodb with the collection name in Models and set the env variable or replace the url in index.js
 <br>
 To run the Project
 ```
