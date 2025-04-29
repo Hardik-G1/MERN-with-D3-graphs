@@ -18,6 +18,6 @@ var DataSchema = new mongoose.Schema({
 	source: String,
 	title: String,
 	likelihood:Number
-},{ collection : 'coffer' });
+},{ collection : 'collectionName' });
 
 module.exports = mongoose.model("Data", DataSchema);
